@@ -1,2 +1,4 @@
 # STM32
-practice with regs
+ part of  RTC
+  init 2017-05-24
+  

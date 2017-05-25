@@ -1,0 +1,16 @@
+.\mdk\obj\main.o: USER\main.c
+.\mdk\obj\main.o: .\LIBS\STM32F10x\stm32f10x.h
+.\mdk\obj\main.o: .\LIBS\core_cm3.h
+.\mdk\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\mdk\obj\main.o: .\LIBS\STM32F10x\system_stm32f10x.h
+.\mdk\obj\main.o: .\USER\stm32f10x_conf.h
+.\mdk\obj\main.o: .\LIBS\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+.\mdk\obj\main.o: .\LIBS\STM32F10x\stm32f10x.h
+.\mdk\obj\main.o: .\LIBS\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\mdk\obj\main.o: .\LIBS\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+.\mdk\obj\main.o: .\LIBS\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\mdk\obj\main.o: .\LIBS\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+.\mdk\obj\main.o: .\LIBS\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\mdk\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\mdk\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\mdk\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

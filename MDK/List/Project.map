@@ -1,0 +1,273 @@
+Component: ARM Compiler 5.06 update 2 (build 183) Tool: armlink [4d35b7]
+
+==============================================================================
+
+Section Cross References
+
+    main.o(i.NVIC_Configuration) refers to misc_1.o(i.NVIC_PriorityGroupConfig) for NVIC_PriorityGroupConfig
+    main.o(i.NVIC_Configuration) refers to misc_1.o(i.NVIC_Init) for NVIC_Init
+    main.o(i.RCC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_HCLKConfig) for RCC_HCLKConfig
+    main.o(i.RCC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_PCLK1Config) for RCC_PCLK1Config
+    main.o(i.RCC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_PCLK2Config) for RCC_PCLK2Config
+    main.o(i.RCC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_PLLConfig) for RCC_PLLConfig
+    main.o(i.RCC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_PLLCmd) for RCC_PLLCmd
+    main.o(i.RCC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_GetFlagStatus) for RCC_GetFlagStatus
+    main.o(i.RCC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_SYSCLKConfig) for RCC_SYSCLKConfig
+    main.o(i.RCC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_GetSYSCLKSource) for RCC_GetSYSCLKSource
+    main.o(i.RTC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_APB1PeriphClockCmd) for RCC_APB1PeriphClockCmd
+    main.o(i.RTC_Configuration) refers to stm32f10x_pwr.o(i.PWR_BackupAccessCmd) for PWR_BackupAccessCmd
+    main.o(i.RTC_Configuration) refers to stm32f10x_bkp_1.o(i.BKP_DeInit) for BKP_DeInit
+    main.o(i.RTC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_LSICmd) for RCC_LSICmd
+    main.o(i.RTC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_GetFlagStatus) for RCC_GetFlagStatus
+    main.o(i.RTC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_RTCCLKConfig) for RCC_RTCCLKConfig
+    main.o(i.RTC_Configuration) refers to stm32f10x_rcc_1.o(i.RCC_RTCCLKCmd) for RCC_RTCCLKCmd
+    main.o(i.RTC_Configuration) refers to stm32f10x_rtc.o(i.RTC_WaitForSynchro) for RTC_WaitForSynchro
+    main.o(i.RTC_Configuration) refers to stm32f10x_rtc.o(i.RTC_WaitForLastTask) for RTC_WaitForLastTask
+    main.o(i.RTC_Configuration) refers to stm32f10x_rtc.o(i.RTC_ITConfig) for RTC_ITConfig
+    main.o(i.RTC_Configuration) refers to stm32f10x_rtc.o(i.RTC_SetPrescaler) for RTC_SetPrescaler
+    main.o(i.RTC_IRQHandler) refers to stm32f10x_rtc.o(i.RTC_GetITStatus) for RTC_GetITStatus
+    main.o(i.RTC_IRQHandler) refers to stm32f10x_rtc.o(i.RTC_ClearITPendingBit) for RTC_ClearITPendingBit
+    main.o(i.RTC_Init) refers to stm32f10x_bkp_1.o(i.BKP_ReadBackupRegister) for BKP_ReadBackupRegister
+    main.o(i.RTC_Init) refers to main.o(i.RTC_Configuration) for RTC_Configuration
+    main.o(i.RTC_Init) refers to stm32f10x_bkp_1.o(i.BKP_WriteBackupRegister) for BKP_WriteBackupRegister
+    main.o(i.RTC_Init) refers to stm32f10x_rcc_1.o(i.RCC_GetFlagStatus) for RCC_GetFlagStatus
+    main.o(i.RTC_Init) refers to stm32f10x_rtc.o(i.RTC_WaitForSynchro) for RTC_WaitForSynchro
+    main.o(i.RTC_Init) refers to stm32f10x_rtc.o(i.RTC_ITConfig) for RTC_ITConfig
+    main.o(i.RTC_Init) refers to stm32f10x_rtc.o(i.RTC_WaitForLastTask) for RTC_WaitForLastTask
+    main.o(i.RTC_Init) refers to main.o(i.NVIC_Configuration) for NVIC_Configuration
+    main.o(i.RTC_Init) refers to stm32f10x_rcc_1.o(i.RCC_ClearFlag) for RCC_ClearFlag
+    main.o(i.main) refers to main.o(i.GPIO_Configuration) for GPIO_Configuration
+    main.o(i.main) refers to main.o(i.USART_Configuration) for USART_Configuration
+    main.o(i.main) refers to stm32f10x_rcc_1.o(i.RCC_APB1PeriphClockCmd) for RCC_APB1PeriphClockCmd
+    main.o(i.main) refers to main.o(i.RTC_Init) for RTC_Init
+    startup_stm32f10x_md.o(RESET) refers to startup_stm32f10x_md.o(STACK) for __initial_sp
+    startup_stm32f10x_md.o(RESET) refers to startup_stm32f10x_md.o(.text) for Reset_Handler
+    startup_stm32f10x_md.o(RESET) refers to stm32f10x_it.o(i.NMI_Handler) for NMI_Handler
+    startup_stm32f10x_md.o(RESET) refers to stm32f10x_it.o(i.HardFault_Handler) for HardFault_Handler
+    startup_stm32f10x_md.o(RESET) refers to stm32f10x_it.o(i.MemManage_Handler) for MemManage_Handler
+    startup_stm32f10x_md.o(RESET) refers to stm32f10x_it.o(i.BusFault_Handler) for BusFault_Handler
+    startup_stm32f10x_md.o(RESET) refers to stm32f10x_it.o(i.UsageFault_Handler) for UsageFault_Handler
+    startup_stm32f10x_md.o(RESET) refers to stm32f10x_it.o(i.SVC_Handler) for SVC_Handler
+    startup_stm32f10x_md.o(RESET) refers to stm32f10x_it.o(i.DebugMon_Handler) for DebugMon_Handler
+    startup_stm32f10x_md.o(RESET) refers to stm32f10x_it.o(i.PendSV_Handler) for PendSV_Handler
+    startup_stm32f10x_md.o(RESET) refers to stm32f10x_it.o(i.SysTick_Handler) for SysTick_Handler
+    startup_stm32f10x_md.o(RESET) refers to main.o(i.RTC_IRQHandler) for RTC_IRQHandler
+    startup_stm32f10x_md.o(RESET) refers to main.o(i.USART1_IRQHandler) for USART1_IRQHandler
+    startup_stm32f10x_md.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    stm32f10x_bkp_1.o(i.BKP_DeInit) refers to stm32f10x_rcc_1.o(i.RCC_BackupResetCmd) for RCC_BackupResetCmd
+    stm32f10x_gpio_1.o(i.GPIO_AFIODeInit) refers to stm32f10x_rcc_1.o(i.RCC_APB2PeriphResetCmd) for RCC_APB2PeriphResetCmd
+    stm32f10x_gpio_1.o(i.GPIO_DeInit) refers to stm32f10x_rcc_1.o(i.RCC_APB2PeriphResetCmd) for RCC_APB2PeriphResetCmd
+    stm32f10x_usart.o(i.USART_DeInit) refers to stm32f10x_rcc_1.o(i.RCC_APB2PeriphResetCmd) for RCC_APB2PeriphResetCmd
+    stm32f10x_usart.o(i.USART_DeInit) refers to stm32f10x_rcc_1.o(i.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    stm32f10x_usart.o(i.USART_Init) refers to stm32f10x_rcc_1.o(i.RCC_GetClocksFreq) for RCC_GetClocksFreq
+    stm32f10x_rcc_1.o(i.RCC_GetClocksFreq) refers to stm32f10x_rcc_1.o(.data) for APBAHBPrescTable
+    stm32f10x_rcc_1.o(i.RCC_WaitForHSEStartUp) refers to stm32f10x_rcc_1.o(i.RCC_GetFlagStatus) for RCC_GetFlagStatus
+    stm32f10x_rtc.o(i.RTC_SetAlarm) refers to stm32f10x_rtc.o(i.RTC_EnterConfigMode) for RTC_EnterConfigMode
+    stm32f10x_rtc.o(i.RTC_SetAlarm) refers to stm32f10x_rtc.o(i.RTC_ExitConfigMode) for RTC_ExitConfigMode
+    stm32f10x_rtc.o(i.RTC_SetCounter) refers to stm32f10x_rtc.o(i.RTC_EnterConfigMode) for RTC_EnterConfigMode
+    stm32f10x_rtc.o(i.RTC_SetCounter) refers to stm32f10x_rtc.o(i.RTC_ExitConfigMode) for RTC_ExitConfigMode
+    stm32f10x_rtc.o(i.RTC_SetPrescaler) refers to stm32f10x_rtc.o(i.RTC_EnterConfigMode) for RTC_EnterConfigMode
+    stm32f10x_rtc.o(i.RTC_SetPrescaler) refers to stm32f10x_rtc.o(i.RTC_ExitConfigMode) for RTC_ExitConfigMode
+    stm32f10x_pwr.o(i.PWR_DeInit) refers to stm32f10x_rcc_1.o(i.RCC_APB1PeriphResetCmd) for RCC_APB1PeriphResetCmd
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_stm32f10x_md.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_stm32f10x_md.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(i.main) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(i.main) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing main.o(i.Delay), (10 bytes).
+    Removing main.o(i.IDWG_Configuration), (36 bytes).
+    Removing main.o(i.RCC_Configuration), (100 bytes).
+    Removing main.o(.data), (1 bytes).
+    Removing startup_stm32f10x_md.o(HEAP), (512 bytes).
+    Removing misc_1.o(i.NVIC_SetVectorTable), (20 bytes).
+    Removing misc_1.o(i.NVIC_SystemLPConfig), (32 bytes).
+    Removing misc_1.o(i.SysTick_CLKSourceConfig), (40 bytes).
+    Removing stm32f10x_bkp_1.o(i.BKP_ClearFlag), (20 bytes).
+    Removing stm32f10x_bkp_1.o(i.BKP_ClearITPendingBit), (20 bytes).
+    Removing stm32f10x_bkp_1.o(i.BKP_GetFlagStatus), (12 bytes).
+    Removing stm32f10x_bkp_1.o(i.BKP_GetITStatus), (12 bytes).
+    Removing stm32f10x_bkp_1.o(i.BKP_ITConfig), (12 bytes).
+    Removing stm32f10x_bkp_1.o(i.BKP_RTCOutputConfig), (28 bytes).
+    Removing stm32f10x_bkp_1.o(i.BKP_SetRTCCalibrationValue), (28 bytes).
+    Removing stm32f10x_bkp_1.o(i.BKP_TamperPinCmd), (12 bytes).
+    Removing stm32f10x_bkp_1.o(i.BKP_TamperPinLevelConfig), (12 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_AFIODeInit), (20 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_DeInit), (200 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_ETH_MediaInterfaceConfig), (12 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_EXTILineConfig), (64 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_EventOutputCmd), (12 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_EventOutputConfig), (32 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_Init), (278 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_PinLockConfig), (18 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_PinRemapConfig), (144 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_ReadInputData), (8 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_ReadInputDataBit), (18 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_ReadOutputData), (8 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_ReadOutputDataBit), (18 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_ResetBits), (4 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_SetBits), (4 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_StructInit), (16 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_Write), (4 bytes).
+    Removing stm32f10x_gpio_1.o(i.GPIO_WriteBit), (10 bytes).
+    Removing stm32f10x_usart.o(i.USART_ClearFlag), (18 bytes).
+    Removing stm32f10x_usart.o(i.USART_ClearITPendingBit), (30 bytes).
+    Removing stm32f10x_usart.o(i.USART_ClockInit), (34 bytes).
+    Removing stm32f10x_usart.o(i.USART_ClockStructInit), (12 bytes).
+    Removing stm32f10x_usart.o(i.USART_Cmd), (24 bytes).
+    Removing stm32f10x_usart.o(i.USART_DMACmd), (18 bytes).
+    Removing stm32f10x_usart.o(i.USART_DeInit), (156 bytes).
+    Removing stm32f10x_usart.o(i.USART_GetFlagStatus), (26 bytes).
+    Removing stm32f10x_usart.o(i.USART_GetITStatus), (84 bytes).
+    Removing stm32f10x_usart.o(i.USART_HalfDuplexCmd), (24 bytes).
+    Removing stm32f10x_usart.o(i.USART_ITConfig), (74 bytes).
+    Removing stm32f10x_usart.o(i.USART_Init), (216 bytes).
+    Removing stm32f10x_usart.o(i.USART_IrDACmd), (24 bytes).
+    Removing stm32f10x_usart.o(i.USART_IrDAConfig), (18 bytes).
+    Removing stm32f10x_usart.o(i.USART_LINBreakDetectLengthConfig), (18 bytes).
+    Removing stm32f10x_usart.o(i.USART_LINCmd), (24 bytes).
+    Removing stm32f10x_usart.o(i.USART_OneBitMethodCmd), (24 bytes).
+    Removing stm32f10x_usart.o(i.USART_OverSampling8Cmd), (22 bytes).
+    Removing stm32f10x_usart.o(i.USART_ReceiveData), (10 bytes).
+    Removing stm32f10x_usart.o(i.USART_ReceiverWakeUpCmd), (24 bytes).
+    Removing stm32f10x_usart.o(i.USART_SendBreak), (10 bytes).
+    Removing stm32f10x_usart.o(i.USART_SendData), (8 bytes).
+    Removing stm32f10x_usart.o(i.USART_SetAddress), (18 bytes).
+    Removing stm32f10x_usart.o(i.USART_SetGuardTime), (16 bytes).
+    Removing stm32f10x_usart.o(i.USART_SetPrescaler), (16 bytes).
+    Removing stm32f10x_usart.o(i.USART_SmartCardCmd), (24 bytes).
+    Removing stm32f10x_usart.o(i.USART_SmartCardNACKCmd), (24 bytes).
+    Removing stm32f10x_usart.o(i.USART_StructInit), (24 bytes).
+    Removing stm32f10x_usart.o(i.USART_WakeUpConfig), (18 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_ADCCLKConfig), (24 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_AHBPeriphClockCmd), (32 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_APB1PeriphResetCmd), (32 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_APB2PeriphClockCmd), (32 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_APB2PeriphResetCmd), (32 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_AdjustHSICalibrationValue), (24 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_ClearITPendingBit), (12 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_ClockSecuritySystemCmd), (12 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_DeInit), (76 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_GetClocksFreq), (212 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_GetITStatus), (24 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_GetSYSCLKSource), (16 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_HCLKConfig), (24 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_HSEConfig), (76 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_HSICmd), (12 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_ITConfig), (32 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_LSEConfig), (52 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_MCOConfig), (12 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_PCLK1Config), (24 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_PCLK2Config), (24 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_PLLCmd), (12 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_PLLConfig), (28 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_SYSCLKConfig), (24 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_USBCLKConfig), (12 bytes).
+    Removing stm32f10x_rcc_1.o(i.RCC_WaitForHSEStartUp), (56 bytes).
+    Removing stm32f10x_rcc_1.o(.data), (20 bytes).
+    Removing stm32f10x_rtc.o(i.RTC_ClearFlag), (16 bytes).
+    Removing stm32f10x_rtc.o(i.RTC_GetCounter), (20 bytes).
+    Removing stm32f10x_rtc.o(i.RTC_GetDivider), (24 bytes).
+    Removing stm32f10x_rtc.o(i.RTC_GetFlagStatus), (24 bytes).
+    Removing stm32f10x_rtc.o(i.RTC_SetAlarm), (28 bytes).
+    Removing stm32f10x_rtc.o(i.RTC_SetCounter), (28 bytes).
+    Removing stm32f10x_pwr.o(i.PWR_ClearFlag), (20 bytes).
+    Removing stm32f10x_pwr.o(i.PWR_DeInit), (22 bytes).
+    Removing stm32f10x_pwr.o(i.PWR_EnterSTANDBYMode), (52 bytes).
+    Removing stm32f10x_pwr.o(i.PWR_EnterSTOPMode), (64 bytes).
+    Removing stm32f10x_pwr.o(i.PWR_GetFlagStatus), (24 bytes).
+    Removing stm32f10x_pwr.o(i.PWR_PVDCmd), (12 bytes).
+    Removing stm32f10x_pwr.o(i.PWR_PVDLevelConfig), (24 bytes).
+    Removing stm32f10x_pwr.o(i.PWR_WakeUpPinCmd), (12 bytes).
+
+104 unused section(s) (total 4121 bytes) removed from the image.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000000
+
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00000584, Max: 0x00010000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00000584, Max: 0x00010000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08000000   0x000000ec   Data   RO          190    RESET               startup_stm32f10x_md.o
+    0x080000ec   0x00000000   Code   RO          984  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x080000ec   0x00000004   Code   RO          987    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x080000f0   0x00000004   Code   RO          990    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x080000f4   0x00000000   Code   RO          992    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x080000f4   0x00000000   Code   RO          994    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x080000f4   0x00000008   Code   RO          995    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x080000fc   0x00000000   Code   RO          997    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x080000fc   0x00000000   Code   RO          999    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x080000fc   0x00000004   Code   RO          988    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000100   0x00000024   Code   RO          191    .text               startup_stm32f10x_md.o
+    0x08000124   0x00000024   Code   RO         1001    .text               mc_w.l(init.o)
+    0x08000148   0x00000010   Code   RO          252    i.BKP_DeInit        stm32f10x_bkp_1.o
+    0x08000158   0x0000001c   Code   RO          257    i.BKP_ReadBackupRegister  stm32f10x_bkp_1.o
+    0x08000174   0x0000001c   Code   RO          261    i.BKP_WriteBackupRegister  stm32f10x_bkp_1.o
+    0x08000190   0x00000004   Code   RO          121    i.BusFault_Handler  stm32f10x_it.o
+    0x08000194   0x00000002   Code   RO          122    i.DebugMon_Handler  stm32f10x_it.o
+    0x08000196   0x00000002   PAD
+    0x08000198   0x0000002c   Code   RO            2    i.GPIO_Configuration  main.o
+    0x080001c4   0x00000028   Code   RO          123    i.HardFault_Handler  stm32f10x_it.o
+    0x080001ec   0x00000004   Code   RO          124    i.MemManage_Handler  stm32f10x_it.o
+    0x080001f0   0x00000002   Code   RO          125    i.NMI_Handler       stm32f10x_it.o
+    0x080001f2   0x0000002a   Code   RO            4    i.NVIC_Configuration  main.o
+    0x0800021c   0x00000070   Code   RO          196    i.NVIC_Init         misc_1.o
+    0x0800028c   0x00000014   Code   RO          197    i.NVIC_PriorityGroupConfig  misc_1.o
+    0x080002a0   0x0000000c   Code   RO          924    i.PWR_BackupAccessCmd  stm32f10x_pwr.o
+    0x080002ac   0x00000002   Code   RO          126    i.PendSV_Handler    stm32f10x_it.o
+    0x080002ae   0x00000002   PAD
+    0x080002b0   0x00000020   Code   RO          633    i.RCC_APB1PeriphClockCmd  stm32f10x_rcc_1.o
+    0x080002d0   0x0000000c   Code   RO          638    i.RCC_BackupResetCmd  stm32f10x_rcc_1.o
+    0x080002dc   0x00000014   Code   RO          639    i.RCC_ClearFlag     stm32f10x_rcc_1.o
+    0x080002f0   0x0000003c   Code   RO          644    i.RCC_GetFlagStatus  stm32f10x_rcc_1.o
+    0x0800032c   0x0000000c   Code   RO          652    i.RCC_LSICmd        stm32f10x_rcc_1.o
+    0x08000338   0x0000000c   Code   RO          658    i.RCC_RTCCLKCmd     stm32f10x_rcc_1.o
+    0x08000344   0x00000010   Code   RO          659    i.RCC_RTCCLKConfig  stm32f10x_rcc_1.o
+    0x08000354   0x00000010   Code   RO          835    i.RTC_ClearITPendingBit  stm32f10x_rtc.o
+    0x08000364   0x00000058   Code   RO            6    i.RTC_Configuration  main.o
+    0x080003bc   0x00000014   Code   RO          836    i.RTC_EnterConfigMode  stm32f10x_rtc.o
+    0x080003d0   0x00000014   Code   RO          837    i.RTC_ExitConfigMode  stm32f10x_rtc.o
+    0x080003e4   0x00000024   Code   RO          841    i.RTC_GetITStatus   stm32f10x_rtc.o
+    0x08000408   0x00000024   Code   RO            7    i.RTC_IRQHandler    main.o
+    0x0800042c   0x00000020   Code   RO          842    i.RTC_ITConfig      stm32f10x_rtc.o
+    0x0800044c   0x00000048   Code   RO            8    i.RTC_Init          main.o
+    0x08000494   0x00000020   Code   RO          845    i.RTC_SetPrescaler  stm32f10x_rtc.o
+    0x080004b4   0x00000014   Code   RO          846    i.RTC_WaitForLastTask  stm32f10x_rtc.o
+    0x080004c8   0x00000024   Code   RO          847    i.RTC_WaitForSynchro  stm32f10x_rtc.o
+    0x080004ec   0x00000002   Code   RO          127    i.SVC_Handler       stm32f10x_it.o
+    0x080004ee   0x00000002   Code   RO          128    i.SysTick_Handler   stm32f10x_it.o
+    0x080004f0   0x0000000c   Code   RO            9    i.USART1_IRQHandler  main.o
+    0x080004fc   0x00000068   Code   RO           10    i.USART_Configuration  main.o
+    0x08000564   0x00000004   Code   RO          129    i.UsageFault_Handler  stm32f10x_it.o
+    0x08000568   0x0000001a   Code   RO           11    i.main              main.o
+    0x08000582   0x00000002   PAD
+    0x08000584   0x00000000   Data   RO         1003    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000400, Max: 0x00005000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000400   Zero   RW          188    STACK               startup_stm32f10x_md.o
+
