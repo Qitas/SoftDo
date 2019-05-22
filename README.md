@@ -1,21 +1,20 @@
-﻿# [algorithm](https://github.com/Qitas/algorithm) 
+﻿# [algorithm算法](https://github.com/Qitas/algorithm)
 
 #### qitas@qitas.cn
 
-### [简介](https://github.com/Qitas/algorithm/wiki)
+algorithm算法资源整理
 
-algorithm算法文件
+## [内部归档](https://github.com/Qitas/algorithm)
 
+* [排序算法](sort/)
 
-## 包含
+* [随机算法](rand/)
 
-- [加密算法](https://github.com/Qitas/encryption)
+* [未归类](more/)
 
-- [排序算法](sort/)
+## [外部归档](https://github.com/Qitas/algorithm)
 
-- [更多文件](more/)
-
-
-### 锻造最美之器
+* [加密算法](https://github.com/Qitas/encryption)
 
 [![sites](qitas/qitas.png)](http://www.qitas.cn)
+## 锻造最美之器
